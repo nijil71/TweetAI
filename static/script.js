@@ -44,7 +44,6 @@ function refreshTweet() {
 
     // Reset the prompt input field value
     promptInput.value = currentPrompt;
-
-    // Submit the form to generate a new tweet
+    
     document.querySelector('form').submit();
 }
