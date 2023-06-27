@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: white;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group .error {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.tweet-container {
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.tweet-text {
+    margin: 0;
+    font-size: 18px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.twitter-btn {
+    color: #fff;
+    border-radius: 50%;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    background-color: #fff;
+    color: #38a1f3;
+}
+
+.fa-twitter {
+    font-size: 1.5rem;
+    border-radius: 50%;
+    padding: 0.5rem;
+    color: #38a1f3;
+}
+
+.fa-twitter:hover {
+    background-color: #38a1f3;
+    color: #fff;
+}
+
+.fa-copy {
+    font-size: 1.5rem;
+    border-radius: 50%;
+    padding: 0.5rem;
+    color: #38a1f3;
+}
+
+.fa-copy:hover {
+    background-color: #38a1f3;
+    color: #fff;
+}
+
+.copy-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.copy-button:hover {
+    background-color: #c82333;
+}
+.tweet-actions{
+    display: flex;
+    justify-content: flex-end;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.site-title {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 40px;
+}
+
+.site-description {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #777;
+}
+
+.generated-tweet-section {
+    margin-top: 50px;
+}
+
+.nav-link{
+font-size: 15px;
+font-weight: bold;
+margin-left: 30px;
+}
+.navbar-brand{
+font-weight: bold;
+margin-left: 130px;
+font-size: 25px;
+}
+.fa-sync-alt{
+font-size: 1.5rem;
+border-radius: 50%;
+padding: 0.5rem;
+color: #38a1f3;
+}
+.fa-sync-alt:hover{
+background-color: #38a1f3;
+color: #fff;
+}
